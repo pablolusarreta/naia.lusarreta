@@ -1,6 +1,6 @@
 const idioma = ["castellano.json", "catalan.json", "euskera.json", "ingles.json"]
 const idioma_sel = 0
-const ico_contacto = ['telefono.png', 'email.png', 'direccion.png']
+const ico_contacto = ['telefono.png','whatsapp.png', 'email.png', 'direccion.png']
 // FECHA
 const fechaActualCast = () => {
     const hoy = new Date()
