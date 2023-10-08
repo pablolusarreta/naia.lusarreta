@@ -1,0 +1,143 @@
+body {
+
+    font-family: texto, sans-serif;
+    background-color: var(--colorFondo);
+    font-weight: 600;
+    color: var(--colorText);
+    font-size: 18px;
+    cursor: default;
+    overflow-x: hidden;
+}
+
+/*----------------------------------------------------------*/
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: var(--colorFondo);
+    height: 120px;
+    font-weight: 900;
+    font-size: 40px;
+    color: var(--colorText);
+    font-family: titulo;
+    box-shadow: #ccc 4px 4px 4px;
+
+}
+
+header>div {
+    letter-spacing: .1em;
+    margin-top: 30px;
+    padding-left: 480px;
+}
+
+#fecha {
+    letter-spacing: 0;
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    font-size: 12px;
+}
+
+section {
+    color: #000;
+}
+
+/*----------------------------------------------------------*/
+
+#lateral {
+    position: absolute;
+    padding-bottom: 60px;
+    top: 0;
+    width: 400px;
+    background-color: var(--colorFondo2);
+}
+
+#lateral>img {
+    width: 320px;
+    height: 320px;
+    margin: 30px;
+}
+
+#lateral>h1 {
+    padding: 20px;
+    font-size: 22px;
+    letter-spacing: .1em;
+}
+
+
+#lateral>div {
+    padding: 6px 60px;
+    font-size: 14px;
+}
+
+#lateral>div>h1 {
+    display: inline;
+    font-size: 18px;
+}
+
+#lateral>div>h1>img {
+    padding-right: 20px;
+}
+
+#lateral>div>h2 {
+    display: inline;
+    font-size: 16px;
+    color: var(--colorText);
+}
+
+#lateral>div>p {
+    font-size: 15px;
+    font-weight: 100;
+    color: var(--colorText);
+}
+
+#lateral>hr {
+    margin: 20px;
+    width: calc(100% - 40px);
+}
+
+/*----------------------------------------------------------*/
+
+#cuerpo {
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    width: calc(100vw - 400px);
+    overflow: hidden;
+    overflow-y: scroll;
+    color: #000;
+    height: auto;
+}
+
+#cuerpo>hr {
+    margin-left: 60px;
+    width: calc(100% - 120px);
+}
+
+#cuerpo>h1 {
+    padding: 20px 60px 10px 60px;
+    font-size: 26px;
+    letter-spacing: .1em;
+}
+
+#cuerpo>div {
+    padding: 20px 60px;
+    font-size: 15px;
+}
+
+#cuerpo>div>h1 {
+    font-size: 18px;
+}
+
+#cuerpo>div>h2 {
+    font-size: 16px;
+    color: var(--colorText);
+}
+
+#cuerpo>div>p {
+    font-size: 15px;
+    font-weight: 100;
+    color: var(--colorText);
+}
+
+/*----------------------------------------------------------*/

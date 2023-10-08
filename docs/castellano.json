@@ -1,0 +1,109 @@
+{
+    "Experiencia laboral": [
+        {
+            "Puesto": "Mentoría",
+            "Organización": "SOS Racismo",
+            "Fecha": "Octubre 2018 - Mayo 2019",
+            "Descripción": "Acompañamiento y ayuda en tareas del día a día a una joven migrante de 14 años. La chica presentaba dificultades con el idioma, la adaptación cultural y la integración social."
+        },
+        {
+            "Puesto": "Profesora de Personas con Necesidades Educativas Especiales",
+            "Empresa": "BAIKARA FEDERAZIOA",
+            "Fecha": "Octubre 2019 - Mayo 2020",
+            "Descripción": "Supervisión y ayuda con tareas académicas a dos grupos de estudiantes entre 11 y 14 años. La mayoría de alumnos tenían dificultades de aprendizaje y/o de conducta."
+        },
+        {
+            "Puesto": "Monitora de Tiempo Libre",
+            "Empresa": "HEZTENA AISIALDI EUSKALTZALEA",
+            "Fecha": "Julio 2021 - Julio 2021",
+            "Descripción": "Monitora de ocio y tiempo libre de niños de 6.7 y 8 años."
+        },
+        {
+            "Puesto": "Prácticas en Psicogerontología",
+            "Empresa": "CASER RESIDENCIAL",
+            "Fecha": "Abril 2022 - Junio 2022",
+            "Descripción": "Administración de test cognitivos, elaboración del Plan de Atención Individualizado (PAI), acompañamiento emocional y aplicación de ejercicios de estimulación cognitiva."
+        },
+        {
+            "Puesto": "Monitora de Tiempo Libre",
+            "Empresa": "HEZTENA AISIALDI EUSKALTZALEA",
+            "Fecha": "Junio 2022 - Julio 2022",
+            "Descripción": "Monitora de ocio y tiempo libre de niños de 6, 7 y 8 años."
+        },
+        {
+            "Puesto": "Prácticas. Psicología General Sanitaria",
+            "Empresa": "COMUNIDAD TERAPÉUTICA DEL MARESME",
+            "Fecha": "Enero 2022 - Junio 2022",
+            "Descripción": "Atención psicológica a adultos con diagnóstico en salud mental.Participación en un Equipo de Inserción Laboral y en un Hospital de Día de la Comunidad Terapéutica del Maresme bajo tutoría de psicólogas clínicas en ambos casos. Actualmente, colaborando con el equipo del Plan de Soporte Individualizado."
+        },
+        {
+            "Puesto": "Monitora de necesidades educativas especiales",
+            "Empresa": "HEZTENA AISIALDI EUSKALTZALEA",
+            "Fecha": "Julio 2023 - Julio 2023",
+            "Descripción": "Monitora y educadora de un niño de 7 años con Trastorno del Espectro Autista (TEA)."
+        },
+        {
+            "Puesto": "Voluntaria en la Asociación Española Contra el Cáncer (AECC)",
+            "Empresa": "Asociación Española Contra el Cáncer",
+            "Fecha": "Mayo 2023 - En curso",
+            "Descripción": "Acompañante de enfermos oncológicos en el Hospital Clinic de Barcelona."
+        }
+    ],
+    "Datos académicos": [
+        {
+            "Institución": "Universidad del País Vasco",
+            "Título": "Grado en Psicología",
+            "Fecha": "2018-2022",
+            "Descripción": ""
+        },
+        {
+            "Institución": "Universidad Autónoma de Barcelona",
+            "Título": "Máster en Psicología General Sanitaria",
+            "Fecha": "2022-Cursando",
+            "Descripción": ""
+        },
+        {
+            "Institución": "Universidad Autónoma de Barcelona",
+            "Título": "Trabajo de Fin de Máster. Estudio de Investigación",
+            "Fecha": "Mayo 2023 - En curso",
+            "Descripción": "Participación en un estudio sobre discriminación por el peso, alteraciones alimentarias y bienestar psicológico en adolescentes dirigido por David Sánchez Carracedo y subvencionado por el Gobierno de España."
+        }
+    ],
+    "Idiomas": [
+        {
+            "Lengua": "Castellano",
+            "Nivel": "lengua materna"
+        },
+        {
+            "Lengua": "Euskara",
+            "Nivel": "lengua materna"
+        },
+        {
+            "Lengua": "Inglés",
+            "Nivel": "B2"
+        }
+    ],
+    "Perfil personal": "Soy una mujer joven con grandes capacidades para tratar con las gentes. Mayormente he trabajado con niños y jóvenes pero he estado en contacto con personas de la tercera edad y adultos con trastornos mentales.<br>Me gusta trabajar en equipo y tengo dotes de escucha y oratoria, ayudar a la gente es lo que me apasiona.",
+    "Certificados": [
+        {
+            "Descripción": "Carnet de conducir B"
+        },
+        {
+            "Descripción": "Título de Monitora de Tiempo Libre"
+        },
+        {
+            "Descripción": "Certificado de nivel B2 de inglés"
+        }
+    ],
+    "Contacto": [
+        {
+            "Descripción": "688 813 237"
+        },
+        {
+            "Descripción": "nlusarreta001@grnáil.com"
+        },
+        {
+            "Descripción": "Carrer de Provença 192<br>08036 Barcelona"
+        }
+    ]
+}
