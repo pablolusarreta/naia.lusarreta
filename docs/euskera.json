@@ -1,1 +1,75 @@
-
+{
+    "Experiencia laboral": [
+        {
+            "Puesto": "Mentoria",
+            "Enpresa": "SOS Rasismo",
+            "Data": "2018ko urria - 2019ko maiatza",
+            "Deskribapena": "14 urteko gazte migrante bati egunero eguneroko lanetan laguntza eta laguntza. Neska horrek hizkuntzarekin, kultur erakutsi eta gizarte integrazioarekin arazoak izaten zituen."
+        },
+        {
+            "Puesto": "Heziketa-eskola Gizarte Beharreko Pertsonentzako",
+            "Enpresa": "BAIKARA FEDERAZIOA",
+            "Data": "2019ko urria - 2020ko maiatza",
+            "Deskribapena": "11 eta 14 urte arteko bi ikasle-taldeei akademiko-lanetan egindako jarraipena eta laguntza. Ikasleen gehiengoak ikasteko edo jarrera arazoak zituzten."
+        },
+        {
+            "Puesto": "Aisia Denboraren Monitore",
+            "Enpresa": "HEZTENA AISIALDI EUSKALTZALEA",
+            "Data": "2021ko uztaila - 2021ko uztaila",
+            "Deskribapena": "6, 7 eta 8 urteko haurrak aisia eta denboraren monitore izan ziren."
+        },
+        {
+            "Puesto": "Psikogerontologiako Praktikak",
+            "Enpresa": "CASER RESIDENCIAL",
+            "Data": "2022ko apirila - 2022ko ekaina",
+            "Deskribapena": "Kognitibo-testak kudeatzea, Ardura-Atentzio Plan Indibidualizatua (PAI) egin, susturapen emozionala eta kognitibo-estimulazio ariketak aplikatzea."
+        },
+        {
+            "Puesto": "Denboraren Monitore",
+            "Enpresa": "HEZTENA AISIALDI EUSKALTZALEA",
+            "Data": "2022ko ekaina - 2022ko uztaila",
+            "Deskribapena": "6, 7 eta 8 urteko haurrak aisia eta denboraren monitore izan ziren."
+        },
+        {
+            "Puesto": "Praktikak. Psikologia General Sanitaria",
+            "Enpresa": "COMUNIDAD TERAPÉUTICA DEL MARESME",
+            "Data": "2022ko urtarrila - 2022ko ekaina",
+            "Deskribapena": "Osasun mentala diagnostikudun helduei psikologia-atentzioa. Enplegua Sartze Taldean eta Maresme Terapeutiko Komunitateko Egutegi Eguneko ospitalean, klinika psikologoek gida izanik. Une honetan, Giza Babes Plana taldearekin lankidetzan egon."
+        },
+        {
+            "Puesto": "Beharrezko Heziketa Monitore",
+            "Enpresa": "HEZTENA AISIALDI EUSKALTZALEA",
+            "Data": "2023ko uztaila - 2023ko uztaila",
+            "Deskribapena": "7 urteko haur batekin Elizako Espetru Autista (TEA) diagnostikodun haurtzain eta hezitzaile izan zen."
+        },
+        {
+            "Puesto": "Canceraren Aurkako Espainiar Elkarteko Boluntarioa (AECC)",
+            "Enpresa": "Canceraren Aurkako Espainiar Elkartea",
+            "Data": "2023ko maiatza - gaur egun",
+            "Deskribapena": "Barcelonako Clinic Ospitalean onkologiko gaixoen laguntzaile."
+        }
+    ],
+    "Datu akademikoak": [
+        {
+            "Erakundea": "Euskal Herriko Unibertsitatea",
+            "Titulua": "Psikologia Gradua",
+            "Data": "2018-2022",
+            "Deskribapena": ""
+        },
+        {
+            "Erakundea": "Barcelona Autonomi Unibertsitatea",
+            "Titulua": "Psikologia Orokorreko Sanitatea Mastera",
+            "Data": "2022-Cursando",
+            "Deskribapena": ""
+        },
+        {
+            "Erakundea": "Barcelona Autonomi Unibertsitatea",
+            "Titulua": "Master Amaierako Lan. Ikerketa Azterketa",
+            "Data": "2023ko maiatza - gaur egun",
+            "Deskribapena": "David Sánchez Carracedo-k gidatutako eta Espainiako Gobernuak diru-ematea egin duen adingabeen pisu-diskriminazioaren, janari-aldaketaren eta ongizate psikologikoaren inguruko ikerketan parte hartzea."
+        }
+    ],
+    "Hizkuntzak": [
+        {
+            "Hizkuntza": "Gaztelania",
+            "Maila": "ama
