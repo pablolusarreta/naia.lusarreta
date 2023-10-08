@@ -1,7 +1,11 @@
 const idioma = ["castellano.json", "catalan.json", "euskera.json", "ingles.json"]
 const idioma_sel = 0
 const ico_contacto = ['telefono.png','whatsapp.png', 'email.png', 'direccion.png']
-const url_contacto = ['tel:+34688813237','https://api.whatsapp.com/send?phone=688813237&text=','mailto:nlusarreta001@grnáil.com','https://www.google.es/maps/place/C%2F+de+Proven%C3%A7a,+192,+08036+Barcelona/@41.3893501,2.1546554,17z/data=!3m1!4b1!4m6!3m5!1s0x12a4a28f8661f6bb:0x33c70a148d56a719!8m2!3d41.3893501!4d2.1546554!16s%2Fg%2F11bw3_pfhg?hl=es&authuser=0&entry=ttu']
+const url_contacto = ['tel:+34688813237',
+                      'https://api.whatsapp.com/send?phone=688813237&text=',
+                      'mailto:nlusarreta001@grnáil.com',
+                      'https://www.google.es/maps/place/C%2F+de+Proven%C3%A7a,+192,+08036+Barcelona/@41.3893501,2.1546554,17z/data=!3m1!4b1!4m6!3m5!1s0x12a4a28f8661f6bb:0x33c70a148d56a719!8m2!3d41.3893501!4d2.1546554!16s%2Fg%2F11bw3_pfhg?hl=es&authuser=0&entry=ttu'
+                     ]
 // FECHA
 const fechaActualCast = () => {
     const hoy = new Date()
@@ -57,7 +61,8 @@ const inicio = () => {
             for (const i in data[Object.keys(data)[5]]) {
                 document.getElementById("lateral").innerHTML +=
                     `<div>
-                    <a href="${url_contacto[i]}"><h1 ><img src="img/${ico_contacto[i]}">${data[Object.keys(data)[5]][i].Descripción}</h1></a>
+                    <a href="${url_contacto[i]}" arget="_blank"><h1>
+                    <img src="img/${ico_contacto[i]}">${data[Object.keys(data)[5]][i].Descripción}</h1></a>
                 </div>`
             }
             // Perfil personal
