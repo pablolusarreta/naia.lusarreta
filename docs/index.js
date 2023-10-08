@@ -35,7 +35,7 @@ const inicio = () => {
                 document.getElementById("cuerpo").innerHTML +=
                     `<div>
                     <h1>${data[Object.keys(data)[0]][i].Puesto}</h1>
-                    <h2>${data[Object.keys(data)[0]][i].Organización}<span>${data[Object.keys(data)[0]][i].Fecha}</span></h2>
+                    <h2>${data[Object.keys(data)[0]][i].Empresa}<span>${data[Object.keys(data)[0]][i].Fecha}</span></h2>
                     <p>${data[Object.keys(data)[0]][i].Descripción}</p>
                 </div>`
             }
