@@ -10,11 +10,11 @@ body {
 }
 a {
     text-decoration: none;
-    color: var(--colorText);
+    color: #000;
     transition: color 0.7s;
 }
 a:hover{
-    color:var(--color4);
+    color:var(--colorText);
 }
 /*----------------------------------------------------------*/
 header {
@@ -82,7 +82,7 @@ section {
     font-size: 18px;
 }
 
-#lateral>div>h1>img {
+#lateral>div>a>h1>img {
     padding-right: 20px;
 }
 
