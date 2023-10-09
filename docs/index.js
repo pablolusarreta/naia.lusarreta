@@ -61,7 +61,7 @@ const inicio = () => {
             for (const i in data[Object.keys(data)[5]]) {
                 document.getElementById("lateral").innerHTML +=
                     `<div>
-                    <a href="${url_contacto[i]}" arget="_blank"><h1>
+                    <a href="${url_contacto[i]}" target="_blank"><h1>
                     <img src="img/${ico_contacto[i]}">${data[Object.keys(data)[5]][i].Descripción}</h1></a>
                 </div>`
             }
