@@ -11,7 +11,7 @@ body {
 a {
     text-decoration: none;
     color: #000;
-    transition: color 0.7s;
+    transition: color 0.3s;
 }
 a:hover{
     color:var(--colorText);
@@ -82,7 +82,7 @@ section {
     font-size: 18px;
 }
 
-#lateral>div>a>h1>img {
+#lateral>div>a>h1>img , #lateral>div>h1>img{
     padding-right: 20px;
 }
 
@@ -99,8 +99,11 @@ section {
 }
 
 #lateral>hr {
-    margin: 20px;
-    width: calc(100% - 40px);
+    background-color:  var(--color4);
+    height: 4px;
+    border: none;
+    margin: 20px 60px 10px 60px;
+    width: calc(100% - 120px);
 }
 
 /*----------------------------------------------------------*/

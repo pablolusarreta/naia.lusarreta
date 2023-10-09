@@ -1,11 +1,11 @@
 const idioma = ["castellano.json", "catalan.json", "euskera.json", "ingles.json"]
 const idioma_sel = 0
-const ico_contacto = ['telefono.png','whatsapp.png', 'email.png', 'direccion.png']
+const ico_contacto = ['telefono.png', 'whatsapp.png', 'email.png', 'direccion.png']
 const url_contacto = ['tel:+34688813237',
-                      'https://api.whatsapp.com/send?phone=688813237&text=',
-                      'mailto:nlusarreta001@grnáil.com',
-                      'https://www.google.es/maps/place/C%2F+de+Proven%C3%A7a,+192,+08036+Barcelona/@41.3893501,2.1546554,17z/data=!3m1!4b1!4m6!3m5!1s0x12a4a28f8661f6bb:0x33c70a148d56a719!8m2!3d41.3893501!4d2.1546554!16s%2Fg%2F11bw3_pfhg?hl=es&authuser=0&entry=ttu'
-                     ]
+    'https://api.whatsapp.com/send?phone=688813237&text=',
+    'mailto:nlusarreta001@grnáil.com',
+    'https://www.google.es/maps/place/C%2F+de+Proven%C3%A7a,+192,+08036+Barcelona/@41.3893501,2.1546554,17z/data=!3m1!4b1!4m6!3m5!1s0x12a4a28f8661f6bb:0x33c70a148d56a719!8m2!3d41.3893501!4d2.1546554!16s%2Fg%2F11bw3_pfhg?hl=es&authuser=0&entry=ttu'
+]
 // FECHA
 const fechaActualCast = () => {
     const hoy = new Date()
@@ -29,11 +29,11 @@ const movil = () => {
 
 const inicio = () => {
     document.getElementById("fecha").innerHTML = fecha_actual[idioma_sel]()
-    fetch(idioma[idioma_sel])
+    fetch('JSON/' + idioma[idioma_sel])
         .then(response => response.json())
         .then(data => {
             console.log(data, Object.keys(data))
-        // CUERPO
+            // CUERPO
             //Experiencia laboral
             document.getElementById("cuerpo").innerHTML = `<h1>${Object.keys(data)[0]}</h1>`
             for (const i in data[Object.keys(data)[0]]) {
@@ -54,7 +54,7 @@ const inicio = () => {
                     <h2>${data[Object.keys(data)[1]][i].Descripción}<span>
                 </div>`
             }
-        // LATERAL
+            // LATERAL
             // Contacto
             document.getElementById("lateral").innerHTML = `<img src="img/perfil.png">`
             document.getElementById("lateral").innerHTML += `<hr><h1>${Object.keys(data)[5]}</h1>`
@@ -68,14 +68,14 @@ const inicio = () => {
             // Perfil personal
             document.getElementById("lateral").innerHTML +=
                 `<hr><h1>${Object.keys(data)[3]}</h1>
-                <div><h1>${data[Object.keys(data)[3]]}</h1>
+            <div><h1>${data[Object.keys(data)[3]]}</h1>
             </div>`
             // Idiomas
             document.getElementById("lateral").innerHTML += `<hr><h1>${Object.keys(data)[2]}</h1>`
             for (const i in data[Object.keys(data)[2]]) {
                 document.getElementById("lateral").innerHTML +=
                     `<div>
-                    <h1> ·&nbsp;&nbsp;${data[Object.keys(data)[2]][i].Lengua}<h1> : <h2>${data[Object.keys(data)[2]][i].Nivel}</h2>
+                    <h1><img src="img/flecha.png">${data[Object.keys(data)[2]][i].Lengua}<h1> : <h2>${data[Object.keys(data)[2]][i].Nivel}</h2>
                 </div>`
             }
             // Certificados
@@ -83,7 +83,7 @@ const inicio = () => {
             for (const i in data[Object.keys(data)[4]]) {
                 document.getElementById("lateral").innerHTML +=
                     `<div>
-                    <h1> ·&nbsp;&nbsp;${data[Object.keys(data)[4]][i].Descripción}</h1>
+                    <h1><img src="img/flecha.png">${data[Object.keys(data)[4]][i].Descripción}</h1>
                 </div>`
             }
         })
