@@ -52,7 +52,7 @@ const inicio = () => {
                 document.getElementById("cuerpo").innerHTML +=
                     `<div>
                     <h1>${data[Object.keys(data)[0]][i].Puesto}</h1>
-                    <h2>${data[Object.keys(data)[0]][i].Empresa}<span>${data[Object.keys(data)[0]][i].Fecha}</span></h2>
+                    <h2>${data[Object.keys(data)[0]][i].Empresa} | <span> ${data[Object.keys(data)[0]][i].Fecha}</span></h2>
                     <p>${data[Object.keys(data)[0]][i].Descripción}</p>
                 </div>`
             }
@@ -61,9 +61,9 @@ const inicio = () => {
             for (const i in data[Object.keys(data)[1]]) {
                 document.getElementById("cuerpo").innerHTML +=
                     `<div>
-                    <h1>${data[Object.keys(data)[1]][i].Título} | ${data[Object.keys(data)[1]][i].Fecha}</span></h2>
-                    <p>${data[Object.keys(data)[1]][i].Institución}</p></h1>
-                    <h2>${data[Object.keys(data)[1]][i].Descripción}<span>
+                    <h1>${data[Object.keys(data)[1]][i].Título}</h2>
+                    <h2>${data[Object.keys(data)[1]][i].Institución} | <span> ${data[Object.keys(data)[1]][i].Fecha}</span></h2>
+                    <p>${data[Object.keys(data)[1]][i].Descripción}<p>
                 </div>`
             }
             // LATERAL

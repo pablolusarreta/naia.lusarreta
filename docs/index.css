@@ -159,7 +159,10 @@ header>div {
     font-size: 16px;
     color: var(--colorText);
 }
-
+#cuerpo>div>h2>span {
+    font-size: 12px;
+    color: var(--colorText);
+}
 #cuerpo>div>p {
     font-size: 15px;
     font-weight: 100;
