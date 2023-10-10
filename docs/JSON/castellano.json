@@ -49,7 +49,7 @@
             "Descripción": "Acompañante de enfermos oncológicos en el Hospital Clinic de Barcelona."
         }
     ],
-    "Datos académicos": [
+    "Datos Académicos": [
         {
             "Institución": "Universidad del País Vasco",
             "Título": "Grado en Psicología",
@@ -84,7 +84,7 @@
         }
     ],
     "Perfil personal": "Soy una mujer joven con grandes capacidades para tratar con las gentes. Mayormente he trabajado con niños y jóvenes pero he estado en contacto con personas de la tercera edad y adultos con trastornos mentales.<br>Me gusta trabajar en equipo y tengo dotes de escucha y oratoria, ayudar a la gente es lo que me apasiona.",
-    "Certificados": [
+    "Certificados y Titulos": [
         {
             "Descripción": "Carnet de conducir B"
         },
@@ -93,6 +93,9 @@
         },
         {
             "Descripción": "Certificado de nivel B2 de inglés"
+        },
+        {
+            "Descripción": "Certificado de Movilidad SICUE"
         }
     ],
     "Contacto": [
@@ -100,13 +103,13 @@
             "Descripción": "688 813 237"
         },
         {
-            "Descripción": "688 813 237"
+            "Descripción": "WhatsApp"
         },
         {
             "Descripción": "nlusarreta001@grnáil.com"
         },
         {
-            "Descripción": "Carrer de Provença 192<br>08036 Barcelona"
+            "Descripción": "Carrer de Provença, 192<br><span>08036</span> Barcelona"
         }
     ]
 }

@@ -82,8 +82,9 @@ header>div {
 }
 
 #lateral>h1 {
+    color: #000;
     padding: 20px;
-    font-size: 22px;
+    font-size: 18px;
     letter-spacing: .1em;
 }
 
@@ -94,10 +95,13 @@ header>div {
 }
 
 #lateral>div>h1, #lateral>div>a>h1 {
+
     display: inline;
     font-size: 18px;
 }
-
+#lateral>div>a>h1>span{
+    font-size: 14px;
+}
 #lateral>div>a>h1>img, #lateral>div>h1>img {
     padding-right: 20px;
 }
@@ -159,10 +163,12 @@ header>div {
     font-size: 16px;
     color: var(--colorText);
 }
+
 #cuerpo>div>h2>span {
     font-size: 12px;
     color: var(--colorText);
 }
+
 #cuerpo>div>p {
     font-size: 15px;
     font-weight: 100;
