@@ -82,7 +82,7 @@ header>div {
 }
 
 #lateral>h1 {
-    color: #000;
+    color:  var(--colorText2);
     padding: 20px;
     font-size: 18px;
     letter-spacing: .1em;
@@ -95,7 +95,6 @@ header>div {
 }
 
 #lateral>div>h1, #lateral>div>a>h1 {
-
     display: inline;
     font-size: 18px;
 }
