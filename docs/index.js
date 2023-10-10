@@ -1,5 +1,11 @@
-const idioma = ["castellano.json", "catalan.json", "euskera.json", "ingles.json"]
-const idioma_sel = 0
+let IDS = 0
+const idioma = [
+    ["castellano.json", "es", "Castellano"],
+    ["catalan.json", "ca", "Catalá"],
+    ["euskera.json", "eu", "Euskara"],
+    ["ingles.json", "en", "English"]
+]
+
 const ico_contacto = ['telefono.png', 'whatsapp.png', 'email.png', 'direccion.png']
 const url_contacto = [
     'tel:+34688813237',
@@ -8,29 +14,34 @@ const url_contacto = [
     'https://maps.app.goo.gl/GokDvkYpT3CkmwLLA'
 ]
 // FECHA
-const fechaActualCast = () => {
-    const hoy = new Date()
-    const diasSemana = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"]
-    const meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
-    return (`${diasSemana[hoy.getDay()]}, ${hoy.getDate()} de ${meses[hoy.getMonth()]} de ${hoy.getFullYear()}`)
+const fechaActual = () => {
+    const fecha = new Date();
+    const formato = new Intl.DateTimeFormat(idioma[IDS][1], {
+        weekday: "long",
+        day: "numeric",
+        month: "long",
+        year: "numeric"
+    });
+    return formato.format(fecha);
 }
-const fecha_actual = [fechaActualCast, fechaActualCast, fechaActualCast, fechaActualCast]
-// MOVIL
-const movil = () => {
-    if (navigator.userAgent.match(/Android/i)
-        || navigator.userAgent.match(/webOS/i)
-        || navigator.userAgent.match(/iPhone/i)
-        || navigator.userAgent.match(/iPad/i)
-        || navigator.userAgent.match(/iPod/i)
-        || navigator.userAgent.match(/BlackBerry/i)
-        || navigator.userAgent.match(/Windows Phone/i)) {
-        document.getElementById("estilo").setAttribute('href', 'movil.css')
+// IDIOMA
+const idiomas = () => {
+    document.getElementById("idioma").innerHTML =''
+    for (const i in idioma) {
+        const sel = Number(i) == IDS ? ' selected ' :''
+        document.getElementById("idioma").innerHTML += `
+        <option value="${i}" ${sel}>${idioma[i][2]}&nbsp;&nbsp;<option>`
     }
 }
-
+const estableceIdioma = v => {
+    IDS = Number(v)
+    inicio()
+}
+// I N I C I O
 const inicio = () => {
-    document.getElementById("fecha").innerHTML = fecha_actual[idioma_sel]()
-    fetch('JSON/' + idioma[idioma_sel])
+    document.getElementById("fecha").innerHTML = fechaActual()
+    idiomas()
+    fetch('JSON/' + idioma[IDS][0])
         .then(response => response.json())
         .then(data => {
             console.log(data, Object.keys(data))

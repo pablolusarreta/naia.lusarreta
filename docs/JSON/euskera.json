@@ -2,74 +2,111 @@
     "Experiencia laboral": [
         {
             "Puesto": "Mentoria",
-            "Enpresa": "SOS Rasismo",
+            "Empresa": "SOS Rasismo",
             "Data": "2018ko urria - 2019ko maiatza",
-            "Deskribapena": "14 urteko gazte migrante bati egunero eguneroko lanetan laguntza eta laguntza. Neska horrek hizkuntzarekin, kultur erakutsi eta gizarte integrazioarekin arazoak izaten zituen."
+            "Descripción": "14 urteko gazte migrante bati egunero eguneroko lanetan laguntza eta laguntza. Neska horrek hizkuntzarekin, kultur erakutsi eta gizarte integrazioarekin arazoak izaten zituen."
         },
         {
             "Puesto": "Heziketa-eskola Gizarte Beharreko Pertsonentzako",
-            "Enpresa": "BAIKARA FEDERAZIOA",
+            "Empresa": "BAIKARA FEDERAZIOA",
             "Data": "2019ko urria - 2020ko maiatza",
-            "Deskribapena": "11 eta 14 urte arteko bi ikasle-taldeei akademiko-lanetan egindako jarraipena eta laguntza. Ikasleen gehiengoak ikasteko edo jarrera arazoak zituzten."
+            "Descripción": "11 eta 14 urte arteko bi ikasle-taldeei akademiko-lanetan egindako jarraipena eta laguntza. Ikasleen gehiengoak ikasteko edo jarrera arazoak zituzten."
         },
         {
             "Puesto": "Aisia Denboraren Monitore",
-            "Enpresa": "HEZTENA AISIALDI EUSKALTZALEA",
+            "Empresa": "HEZTENA AISIALDI EUSKALTZALEA",
             "Data": "2021ko uztaila - 2021ko uztaila",
-            "Deskribapena": "6, 7 eta 8 urteko haurrak aisia eta denboraren monitore izan ziren."
+            "Descripción": "6, 7 eta 8 urteko haurrak aisia eta denboraren monitore izan ziren."
         },
         {
             "Puesto": "Psikogerontologiako Praktikak",
-            "Enpresa": "CASER RESIDENCIAL",
+            "Empresa": "CASER RESIDENCIAL",
             "Data": "2022ko apirila - 2022ko ekaina",
-            "Deskribapena": "Kognitibo-testak kudeatzea, Ardura-Atentzio Plan Indibidualizatua (PAI) egin, susturapen emozionala eta kognitibo-estimulazio ariketak aplikatzea."
+            "Descripción": "Kognitibo-testak kudeatzea, Ardura-Atentzio Plan Indibidualizatua (PAI) egin, susturapen emozionala eta kognitibo-estimulazio ariketak aplikatzea."
         },
         {
             "Puesto": "Denboraren Monitore",
-            "Enpresa": "HEZTENA AISIALDI EUSKALTZALEA",
+            "Empresa": "HEZTENA AISIALDI EUSKALTZALEA",
             "Data": "2022ko ekaina - 2022ko uztaila",
-            "Deskribapena": "6, 7 eta 8 urteko haurrak aisia eta denboraren monitore izan ziren."
+            "Descripción": "6, 7 eta 8 urteko haurrak aisia eta denboraren monitore izan ziren."
         },
         {
             "Puesto": "Praktikak. Psikologia General Sanitaria",
-            "Enpresa": "COMUNIDAD TERAPÉUTICA DEL MARESME",
+            "Empresa": "COMUNIDAD TERAPÉUTICA DEL MARESME",
             "Data": "2022ko urtarrila - 2022ko ekaina",
-            "Deskribapena": "Osasun mentala diagnostikudun helduei psikologia-atentzioa. Enplegua Sartze Taldean eta Maresme Terapeutiko Komunitateko Egutegi Eguneko ospitalean, klinika psikologoek gida izanik. Une honetan, Giza Babes Plana taldearekin lankidetzan egon."
+            "Descripción": "Osasun mentala diagnostikudun helduei psikologia-atentzioa. Enplegua Sartze Taldean eta Maresme Terapeutiko Komunitateko Egutegi Eguneko ospitalean, klinika psikologoek gida izanik. Une honetan, Giza Babes Plana taldearekin lankidetzan egon."
         },
         {
             "Puesto": "Beharrezko Heziketa Monitore",
-            "Enpresa": "HEZTENA AISIALDI EUSKALTZALEA",
+            "Empresa": "HEZTENA AISIALDI EUSKALTZALEA",
             "Data": "2023ko uztaila - 2023ko uztaila",
-            "Deskribapena": "7 urteko haur batekin Elizako Espetru Autista (TEA) diagnostikodun haurtzain eta hezitzaile izan zen."
+            "Descripción": "7 urteko haur batekin Elizako Espetru Autista (TEA) diagnostikodun haurtzain eta hezitzaile izan zen."
         },
         {
             "Puesto": "Canceraren Aurkako Espainiar Elkarteko Boluntarioa (AECC)",
-            "Enpresa": "Canceraren Aurkako Espainiar Elkartea",
+            "Empresa": "Canceraren Aurkako Espainiar Elkartea",
             "Data": "2023ko maiatza - gaur egun",
-            "Deskribapena": "Barcelonako Clinic Ospitalean onkologiko gaixoen laguntzaile."
+            "Descripción": "Barcelonako Clinic Ospitalean onkologiko gaixoen laguntzaile."
         }
     ],
-    "Datu akademikoak": [
+    "Datos académicos": [
         {
-            "Erakundea": "Euskal Herriko Unibertsitatea",
-            "Titulua": "Psikologia Gradua",
-            "Data": "2018-2022",
-            "Deskribapena": ""
+            "Institución": "Euskal Herriko Unibertsitatea",
+            "Título": "Psikologia Gradua",
+            "Fecha": "2018-2022",
+            "Descripción": ""
         },
         {
-            "Erakundea": "Barcelona Autonomi Unibertsitatea",
-            "Titulua": "Psikologia Orokorreko Sanitatea Mastera",
-            "Data": "2022-Cursando",
-            "Deskribapena": ""
+            "Institución": "Barcelonako Autonomia Unibertsitatea",
+            "Título": "Psikologia Orokorraren Osasun Masterra",
+            "Fecha": "2022-Cursando",
+            "Descripción": ""
         },
         {
-            "Erakundea": "Barcelona Autonomi Unibertsitatea",
-            "Titulua": "Master Amaierako Lan. Ikerketa Azterketa",
-            "Data": "2023ko maiatza - gaur egun",
-            "Deskribapena": "David Sánchez Carracedo-k gidatutako eta Espainiako Gobernuak diru-ematea egin duen adingabeen pisu-diskriminazioaren, janari-aldaketaren eta ongizate psikologikoaren inguruko ikerketan parte hartzea."
+            "Institución": "Barcelonako Autonomia Unibertsitatea",
+            "Título": "Masterraren Amaierako Lana. Ikerketa Estudioa",
+            "Fecha": "2023ko maiatza - Martxan",
+            "Descripción": "David Sánchez Carracedoren zuzendaritzapean eta Espainiako Gobernuak diruz lagundutako pisuaren diskriminazio, elikadura-aldaketak eta nerabeen ongizate psikologikoari buruzko ikerketa batean parte hartzea."
         }
     ],
-    "Hizkuntzak": [
+    "Idiomas": [
         {
-            "Hizkuntza": "Gaztelania",
-            "Maila": "ama
+            "Lengua": "Gaztelania",
+            "Nivel": "ama hizkuntza"
+        },
+        {
+            "Lengua": "Euskara",
+            "Nivel": "ama hizkuntza"
+        },
+        {
+            "Lengua": "Ingelesa",
+            "Nivel": "B2"
+        }
+    ],
+    "Perfil personal": "Jendearekin tratatzeko gaitasun handiko emakume gaztea naiz. Gehienbat haurrekin eta gazteekin lan egin dut, baina adinekoekin eta gaitasun mentalak dituzten helduekin kontaktuan egon naiz.<br>Taldean lan egitea gustatzen zait eta entzuteko eta mintzatzeko dotoreak ditut, jendeari laguntzea da nire pasioa.",
+    "Certificados": [
+        {
+            "Descripción": "B motako gidabaimena"
+        },
+        {
+            "Descripción": "Aisialdiko Monitore titulua"
+        },
+        {
+            "Descripción": "Ingelesaren B2 mailako ziurtagiria"
+        }
+    ],
+    "Contacto": [
+        {
+            "Descripción": "688 813 237"
+        },
+        {
+            "Descripción": "688 813 237"
+        },
+        {
+            "Descripción": "nlusarreta001@grnáil.com"
+        },
+        {
+            "Descripción": "Provença kalea 192<br>08036 Barcelona"
+        }
+    ]
+}

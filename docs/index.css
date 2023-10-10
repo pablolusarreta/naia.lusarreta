@@ -8,55 +8,71 @@ body {
     cursor: default;
     overflow-x: hidden;
 }
+
 a {
     text-decoration: none;
     color: #000;
     transition: color 0.3s;
 }
-a:hover{
-    color:var(--colorText);
+
+a:hover {
+    color: var(--colorText);
 }
+
 /*----------------------------------------------------------*/
 header {
     position: fixed;
     top: 0;
     width: 100vw;
+    min-width: 530px;
     background-color: var(--colorFondo);
-    height: 120px;
-    font-weight: 900;
+    height: 90px;
+    font-weight: 100;
     font-size: 40px;
     color: var(--colorText);
     font-family: titulo;
     box-shadow: #ccc 4px 4px 4px;
-
+    text-align: center;
+    z-index: 100;
 }
 
 header>div {
     letter-spacing: .1em;
     margin-top: 30px;
-    padding-left: 480px;
+}
+
+#fecha, #idioma {
+    font-family: texto;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 12px;
+    color: var(--colorText);
+    font-weight: 900;
+    top: -20px;
 }
 
 #fecha {
-    letter-spacing: 0;
-    position: absolute;
-    bottom: 10px;
-    right: 30px;
-    font-size: 12px;
+    left: 20px;
 }
 
-section {
-    color: #000;
+#idioma {
+    display: none;
+    top: 10px;
+    right: 40px;
+    border: none;
 }
+
 
 /*----------------------------------------------------------*/
 
 #lateral {
     position: absolute;
     padding-bottom: 60px;
-    top: 0;
+    top: 90px;
     width: 400px;
     background-color: var(--colorFondo2);
+    border-bottom-right-radius: 50px;
 }
 
 #lateral>img {
@@ -82,7 +98,7 @@ section {
     font-size: 18px;
 }
 
-#lateral>div>a>h1>img , #lateral>div>h1>img{
+#lateral>div>a>h1>img, #lateral>div>h1>img {
     padding-right: 20px;
 }
 
@@ -99,7 +115,7 @@ section {
 }
 
 #lateral>hr {
-    background-color:  var(--color4);
+    background-color: var(--color4);
     height: 4px;
     border: none;
     margin: 20px 60px 10px 60px;

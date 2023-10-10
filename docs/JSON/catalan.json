@@ -69,18 +69,18 @@
             "Descripción": "Participació en un estudi sobre discriminació pel pes, alteracions alimentàries i benestar psicològic en adolescents dirigit per David Sánchez Carracedo i subvencionat pel Govern d'Espanya."
         }
     ],
-    "Idiomes": [
+    "Idiomas": [
         {
-            "Llengua": "Castellà",
-            "Nivell": "llengua materna"
+            "Lengua": "Castellà",
+            "Nivel": "llengua materna"
         },
         {
-            "Llengua": "Euskara",
-            "Nivell": "llengua materna"
+            "Lengua": "Euskara",
+            "Nivel": "llengua materna"
         },
         {
-            "Llengua": "Anglès",
-            "Nivell": "B2"
+            "Lengua": "Anglès",
+            "Nivel": "B2"
         }
     ],
     "Perfil personal": "Sóc una dona jove amb grans capacitats per tractar amb la gent. Principalment he treballat amb nens i joves, però també he estat en contacte amb la gent gran i adults amb trastorns mentals.<br>M'agrada treballar en equip i tinc habilitats d'escolta i oratòria, ajudar la gent és la meva passió.",
