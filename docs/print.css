@@ -1,0 +1,126 @@
+/*----------------------------------------------------------*/
+header {
+    position: absolute;
+    height: 40px;
+    font-size: 26px;
+}
+header>div {
+    margin-top: 0px;
+}
+#fecha,
+#idioma {
+    display: none;
+
+}
+
+/*----------------------------------------------------------*/
+
+#lateral {
+    position: absolute;
+    width: 180px;
+    top: 40px;
+}
+
+#lateral>img {
+    width: 120px;
+    height: 120px;
+
+}
+
+#lateral>h1 {
+    padding: 14px;
+    font-size: 11px;
+
+}
+
+
+#lateral>div {
+
+    padding: 2px 14px;
+    font-size: 10px;
+}
+
+#lateral>div>a {
+    color: var(--colorText);
+}
+
+#lateral>div>h1, #lateral>div>a>h1 {
+
+    display: inline;
+    font-size: 10px;
+}
+
+#lateral>div>a>h1>span {
+    font-size: 10px;
+}
+#lateral>div>a>h1>img{
+    width: 10px;
+    height: 10px;
+    opacity: 0.5;
+    padding-right: 4px;
+}
+
+#lateral>div>h1>img,
+#lateral>div:nth-child(5) {
+    display: none;
+}
+
+#lateral>div>h2 {
+    display: inline;
+    font-size: 10px;
+
+}
+
+
+#lateral>hr {
+    width: 140px;
+    margin: 20px 20px 10px 20px;
+}
+
+/*----------------------------------------------------------*/
+
+#cuerpo {
+    position: absolute;
+    top:50px;
+    left: 180px;
+    width: calc(100vw - 180px);
+    overflow: hidden;
+
+}
+
+#cuerpo>hr {
+    margin-left: 40px;
+    width: calc(100% - 80px);
+}
+
+#cuerpo>h1 {
+    padding: 10px 40px 5px 40px;
+    font-size: 18px;
+    letter-spacing: .1em;
+}
+
+#cuerpo>div {
+    padding: 10px 40px;
+    font-size: 12px;
+}
+
+#cuerpo>div>h1 {
+    font-size: 12px;
+}
+
+#cuerpo>div>h2 {
+    font-size: 11px;
+
+}
+
+#cuerpo>div>h2>span {
+    font-size: 11px;
+
+}
+
+#cuerpo>div>p {
+    font-size: 11px;
+
+}
+
+/*----------------------------------------------------------*/
