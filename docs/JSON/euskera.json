@@ -1,5 +1,5 @@
 {
-    "Experiencia laboral": [
+    "Lan esperientzia": [
         {
             "Puesto": "Mentoria",
             "Empresa": "SOS Rasismo",
@@ -49,7 +49,7 @@
             "Descripción": "Barcelonako Clinic Ospitalean onkologiko gaixoen laguntzaile."
         }
     ],
-    "Datos académicos": [
+    "Akademiko datuak": [
         {
             "Institución": "Euskal Herriko Unibertsitatea",
             "Título": "Psikologia Gradua",
@@ -69,7 +69,7 @@
             "Descripción": "David Sánchez Carracedoren zuzendaritzapean eta Espainiako Gobernuak diruz lagundutako pisuaren diskriminazio, elikadura-aldaketak eta nerabeen ongizate psikologikoari buruzko ikerketa batean parte hartzea."
         }
     ],
-    "Idiomas": [
+    "Hizkuntzak": [
         {
             "Lengua": "Gaztelania",
             "Nivel": "ama hizkuntza"
@@ -83,8 +83,8 @@
             "Nivel": "B2"
         }
     ],
-    "Perfil personal": "Jendearekin tratatzeko gaitasun handiko emakume gaztea naiz. Gehienbat haurrekin eta gazteekin lan egin dut, baina adinekoekin eta gaitasun mentalak dituzten helduekin kontaktuan egon naiz.<br>Taldean lan egitea gustatzen zait eta entzuteko eta mintzatzeko dotoreak ditut, jendeari laguntzea da nire pasioa.",
-    "Certificados": [
+    "Pertsona profila": "Jendearekin tratatzeko gaitasun handiko emakume gaztea naiz. Gehienbat haurrekin eta gazteekin lan egin dut, baina adinekoekin eta gaitasun mentalak dituzten helduekin kontaktuan egon naiz.<br>Taldean lan egitea gustatzen zait eta entzuteko eta mintzatzeko dotoreak ditut, jendeari laguntzea da nire pasioa.",
+    "Ziurtagiriak": [
         {
             "Descripción": "B motako gidabaimena"
         },
@@ -95,7 +95,7 @@
             "Descripción": "Ingelesaren B2 mailako ziurtagiria"
         }
     ],
-    "Contacto": [
+    "Harremanetarako": [
         {
             "Descripción": "688 813 237"
         },

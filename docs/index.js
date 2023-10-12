@@ -22,16 +22,16 @@ const fechaActual = () => {
         month: "long",
         year: "numeric"
     });
-    return formato.format(fecha);
+    document.getElementById("fecha").innerHTML = formato.format(fecha);
 }
 // IDIOMA
 const idiomas = () => {
-    document.getElementById("idioma").innerHTML =''
+    let S = ''
     for (const i in idioma) {
-        const sel = Number(i) == IDS ? ' selected ' :''
-        document.getElementById("idioma").innerHTML += `
-        <option value="${i}" ${sel}>${idioma[i][2]}&nbsp;&nbsp;<option>`
+        const sel = Number(i) == IDS ? ' selected ' : ''
+        S += `<option value="${i}" ${sel}>${idioma[i][2]}&nbsp;&nbsp;</option>`
     }
+    document.getElementById("idioma").innerHTML = S
 }
 const estableceIdioma = v => {
     IDS = Number(v)
@@ -39,7 +39,7 @@ const estableceIdioma = v => {
 }
 // I N I C I O
 const inicio = () => {
-    document.getElementById("fecha").innerHTML = fechaActual()
+    fechaActual()
     idiomas()
     fetch('JSON/' + idioma[IDS][0])
         .then(response => response.json())

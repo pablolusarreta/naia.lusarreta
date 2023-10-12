@@ -1,5 +1,5 @@
 {
-    "Experiencia laboral": [
+    "Work experience": [
         {
             "Puesto": "Mentorship",
             "Empresa": "SOS Racism",
@@ -49,7 +49,7 @@
             "Descripción": "Accompaniment of oncological patients at the Clinic Hospital of Barcelona."
         }
     ],
-    "Datos académicos": [
+    "Academic background": [
         {
             "Institución": "University of the Basque Country",
             "Título": "Bachelor's Degree in Psychology",
@@ -69,7 +69,7 @@
             "Descripción": "Participation in a study on weight-based discrimination, eating disorders, and psychological well-being in adolescents led by David Sánchez Carracedo and funded by the Government of Spain."
         }
     ],
-    "Idiomas": [
+    "Languages": [
         {
             "Lengua": "Spanish",
             "Nivel": "Native"
@@ -83,8 +83,8 @@
             "Nivel": "B2"
         }
     ],
-    "Perfil personal": "I am a young woman with great abilities to interact with people. I have mostly worked with children and young people, but I have also been in contact with the elderly and adults with mental disorders.<br>I enjoy working in teams and have listening and speaking skills. Helping people is my passion.",
-    "Certificados": [
+    "Personal profile": "I am a young woman with great abilities to interact with people. I have mostly worked with children and young people, but I have also been in contact with the elderly and adults with mental disorders.<br>I enjoy working in teams and have listening and speaking skills. Helping people is my passion.",
+    "Certificates": [
         {
             "Descripción": "B Driver's License"
         },
@@ -95,7 +95,7 @@
             "Descripción": "B2 Level English Certificate"
         }
     ],
-    "Contacto": [
+    "Contact information": [
         {
             "Descripción": "688 813 237"
         },

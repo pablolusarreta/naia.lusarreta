@@ -51,25 +51,25 @@
     ],
     "Dades acadèmiques": [
         {
-            "Institució": "Universitat del País Basc",
-            "Títol": "Grau en Psicologia",
+            "Institucion": "Universitat del País Basc",
+            "Título": "Grau en Psicologia",
             "Fecha": "2018-2022",
             "Descripción": ""
         },
         {
             "Institució": "Universitat Autònoma de Barcelona",
-            "Títol": "Màster en Psicologia General Sanitària",
+            "Título": "Màster en Psicologia General Sanitària",
             "Fecha": "2022-Cursant",
             "Descripción": ""
         },
         {
             "Institució": "Universitat Autònoma de Barcelona",
-            "Títol": "Treball de Fi de Màster. Estudi de Recerca",
+            "Título": "Treball de Fi de Màster. Estudi de Recerca",
             "Fecha": "Maig 2023 - En curs",
             "Descripción": "Participació en un estudi sobre discriminació pel pes, alteracions alimentàries i benestar psicològic en adolescents dirigit per David Sánchez Carracedo i subvencionat pel Govern d'Espanya."
         }
     ],
-    "Idiomas": [
+    "Idiomes": [
         {
             "Lengua": "Castellà",
             "Nivel": "llengua materna"
