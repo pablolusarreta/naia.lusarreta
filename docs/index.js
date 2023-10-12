@@ -87,7 +87,7 @@ const inicio = () => {
             for (const i in data[Object.keys(data)[2]]) {
                 document.getElementById("lateral").innerHTML +=
                     `<div>
-                    <h1><img src="img/flecha.png">${data[Object.keys(data)[2]][i].Lengua}<h1> : <h2>${data[Object.keys(data)[2]][i].Nivel}</h2>
+                    <h1>${data[Object.keys(data)[2]][i].Lengua}</h1> : <h2>${data[Object.keys(data)[2]][i].Nivel}</h2>
                 </div>`
             }
             // Certificados
@@ -95,7 +95,7 @@ const inicio = () => {
             for (const i in data[Object.keys(data)[4]]) {
                 document.getElementById("lateral").innerHTML +=
                     `<div>
-                    <h1><img src="img/flecha.png">${data[Object.keys(data)[4]][i].Descripción}</h1>
+                    <h1>${data[Object.keys(data)[4]][i].Descripción}</h1>
                 </div>`
             }
         })
