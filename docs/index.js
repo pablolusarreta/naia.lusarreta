@@ -34,8 +34,9 @@ const idiomas = () => {
     document.getElementById("idioma").innerHTML = S
 }
 const estableceIdioma = v => {
+    document.getElementsByTagName('body')[0].style.opacity = "0";
     IDS = Number(v)
-    inicio()
+    setTimeout(inicio, 1000);
 }
 // I N I C I O
 const inicio = () => {
@@ -44,7 +45,7 @@ const inicio = () => {
     fetch('JSON/' + idioma[IDS][0])
         .then(response => response.json())
         .then(data => {
-            console.log(data, Object.keys(data))
+            document.getElementsByTagName('body')[0].style.opacity = "1";
             // CUERPO
             //Experiencia laboral
             document.getElementById("cuerpo").innerHTML = `<h1>${Object.keys(data)[0]}</h1>`
