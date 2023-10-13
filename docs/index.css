@@ -31,7 +31,7 @@ header {
     font-size: 40px;
     color: var(--colorText);
     font-family: titulo;
-    box-shadow: #ccc 4px 4px 4px;
+    box-shadow: #ccc 0px 2px 4px 0px;
     text-align: center;
     z-index: 100;
 }
@@ -74,6 +74,7 @@ header>div {
     width: 400px;
     background-color: var(--colorFondo2);
     border-bottom-right-radius: 50px;
+    box-shadow: #ccc 1px 1px 0px 0px;
 }
 
 #lateral>img {
@@ -94,11 +95,17 @@ header>div {
     padding: 6px 60px;
     font-size: 14px;
 }
-#lateral>div>h1::before{
-    margin-left: -10px;
+
+#lateral>div>h1::before {
+    margin-left: -14px;
     padding-right: 10px;
-    content: "◯";
+    content: "○";
 }
+
+#lateral>div:nth-child(10)>h1::before {
+    content: none;
+}
+
 #lateral>div>h1, #lateral>div>a>h1 {
     display: inline;
     font-size: 18px;
