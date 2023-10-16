@@ -13,6 +13,18 @@ const url_contacto = [
     'mailto:nlusarreta001@grnáil.com',
     'https://maps.app.goo.gl/GokDvkYpT3CkmwLLA'
 ]
+// MOVILES
+const movil = () => {
+    if (navigator.userAgent.match(/Android/i)
+        || navigator.userAgent.match(/webOS/i)
+        || navigator.userAgent.match(/iPhone/i)
+        || navigator.userAgent.match(/iPad/i)
+        || navigator.userAgent.match(/iPod/i)
+        || navigator.userAgent.match(/BlackBerry/i)
+        || navigator.userAgent.match(/Windows Phone/i)) {
+        document.getElementById("estilo").setAttribute('href', 'movil.css')
+    }
+}
 // FECHA
 const fechaActual = () => {
     const fecha = new Date();
@@ -40,6 +52,7 @@ const estableceIdioma = v => {
 }
 // I N I C I O
 const inicio = () => {
+    //movil()
     fechaActual()
     idiomas()
     fetch('JSON/' + idioma[IDS][0])
