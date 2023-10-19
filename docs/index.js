@@ -1,9 +1,9 @@
 let IDS = 0
 const idioma = [
-    ["castellano.json", "es", "Castellano"],
-    ["catalan.json", "ca", "Catalá"],
-    ["euskera.json", "eu", "Euskara"],
-    ["ingles.json", "en", "English"]
+    ["castellano.json", "es-ES", "Castellano"],
+    ["catalan.json", "ca-ES", "Catalá"],
+    ["euskera.json", "eu-ES", "Euskara"],
+    ["ingles.json", "en-US", "English"]
 ]
 
 const ico_contacto = ['telefono.png', 'whatsapp.png', 'email.png', 'direccion.png']
@@ -52,7 +52,7 @@ const estableceIdioma = v => {
 }
 // I N I C I O
 const inicio = () => {
-    //movil()
+    movil()
     fechaActual()
     idiomas()
     fetch('JSON/' + idioma[IDS][0])

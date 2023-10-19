@@ -58,7 +58,7 @@ header>div {
 }
 
 #idioma {
-    /*display: none;*/
+    display: none;/**/
     top: 10px;
     right: 40px;
     border: none;
